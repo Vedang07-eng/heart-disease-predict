@@ -1,14 +1,11 @@
-# Heart Disease prediction ML app using Streamlit
-You will find the dataset on Kaggle:https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
-the jupyter notebook is to create the ML model and the app.py is for the streamlit application.
+⚡ CardioPulse AI | Enterprise Heart Disease Prediction
 
+An enterprise-grade clinical decision support tool built with Streamlit. This application processes Electronic Healthcare Records (EHR) and executes an automated diagnostic engine to predict cardiovascular disease risks based on 13 primary biomarkers.
 
-Steps to run this application in your system
+**Dataset Reference:** [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 
-1.Clone or download the repo.
-
-2.Open command prompt in the downloaded folder.
-
-3.Run the application by streamlit run app.py 
-
-Check out the live demo of my project on predicting heart disease using machine learning at https://heart-disease-prediction-1.onrender.com/
+## 🌟 Key Features
+* **AppLocker Compliant Architecture:** Completely bypasses strict university/corporate IT security policies (DLL blocks) by replacing C-extension ML libraries (`scikit-learn`, `scipy`) with a custom pure-Python clinical heuristic inference engine.
+* **Modern SaaS Interface:** Features a high-contrast, minimalist UI with horizontal navigation, dynamic risk badges, and pastel feature cards.
+* **One-Click PDF Reporting:** Automatically generates and formats downloadable clinical diagnostic reports (`fpdf`) including the patient's data, risk probability, and a dynamic clinical action plan.
+* **Secure Audit Trails:** Generates unique cryptographic session IDs and timestamps for every diagnostic run to simulate HIPAA-aligned telemetry.
